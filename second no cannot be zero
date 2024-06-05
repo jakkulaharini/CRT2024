@@ -6,7 +6,6 @@ int main() {
     if(b==0)
     {
         printf("second no cannot be zero");
-        b=1;
     }
     int r=a/b;
     printf("%d",r);
