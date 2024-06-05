@@ -1,0 +1,66 @@
+Write a program to return the nearest 10 multiple of any given number
+
+Input Format
+
+Read a number
+
+Constraints
+
+1<=n<=10^7
+
+Output Format
+
+Print nearest 10 multiple no
+
+Sample Input 0
+
+18
+Sample Output 0
+
+20
+Sample Input 1
+
+134
+Sample Output 1
+
+130
+Sample Input 2
+
+155
+Sample Output 2
+
+160
+Submissions: 285
+Max Score: 0
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+ 
+1
+#include <stdio.h>
+2
+#include <string.h>
+3
+#include <math.h>
+4
+#include <stdlib.h>
+5
+​
+6
+int main() {
+7
+    int a;
+8
+    scanf("%d",&a);
+9
+    int nearMul = (a + 5) / 10 * 10;
+10
+    printf("%d\n", nearMul);
+11
+    return 0;
+12
+}
+13
+​
